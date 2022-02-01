@@ -1,0 +1,118 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body 
+{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  
+}
+.containerLogo 
+{
+    height: 50px;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+    z-index: 2;
+}
+.logo 
+{
+    width: 100px;
+    padding: 10px;
+    margin-right: 50px;
+}
+main 
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: rgba(25, 3, 65, 0.137);*/
+}
+#bigText 
+{
+    position: absolute;
+    transform: rotate(-90deg);
+    font-family: 'Merriweather', serif;
+    width: 1100px;
+    height: 1400px;
+    background-color: rgb(182, 122, 159);
+    font-size: 120px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;   
+    color: rgba(255, 255, 255, 0.609);
+    z-index: 1;
+    border-radius: 10px;
+}
+.container 
+{
+    width: 320px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 24px 24px 48px #4c4c4da4,
+    inset 12px 12px 24px #e8e8e9a4, inset -24px -24px 48px #4c4c4da4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 5;
+}
+.container h1 
+{
+    font-size: 20px;
+}
+.container .fas 
+{
+    color: rgb(255, 196, 0);
+}
+.annee2022 
+{
+padding: 14px;
+background-color: #4c4c4da4;
+box-shadow: 24px 24px 48px #fafafaa4,
+    inset 12px 12px 24px #808081a4, inset -24px -24px 48px #ffffffa4;
+margin-top: 15px;
+border-radius: 90px;
+color: #ffffff;
+font-weight: bold;
+}
+.ouverture 
+{
+    height: 2px;
+    width: 100%;
+    background-color: #4c4c4d41;
+    position: absolute;
+    top: 65px;
+}
+.light 
+{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 70%;
+    background-color: rgb(255, 196, 0);
+    border-radius: 50%;
+}
